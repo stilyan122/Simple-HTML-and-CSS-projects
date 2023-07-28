@@ -1,0 +1,62 @@
+body,.survey{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:100vw;
+    font-weight: 300;
+}
+.form{
+    margin:20px;
+    padding:20px;
+    background-color: rgb(118,181,197);
+    border: 2px solid lightsteelblue;
+    border-radius: 12px;
+}
+.item{
+    margin:10px;
+}
+.input{
+    border-radius: 12px;
+    padding:6px 10px;
+    color:white;
+    background-color:rgb(6,57,112);
+    border:none;
+    outline:none;
+}
+.input:hover{
+    background-color:rgb(21,76,121);
+}
+.radio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:20px;
+}
+.radio>div{
+    padding:12px;
+    padding-left:0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+button{
+    padding:8px 24px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(37, 150, 190);
+}
+button:hover{
+    background-color: rgb(6,57,112);
+}
