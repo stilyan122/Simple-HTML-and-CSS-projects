@@ -1,1 +1,1 @@
-# Simple-HTML-and-CSS-projects
+# A little repo for some simple HTML and CSS projects
